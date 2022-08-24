@@ -61,6 +61,4 @@ continueUserActivity: (NSUserActivity *) userActivity
 
 -(void) initCallKitProvider: (NSDictionary *) settings withEventHandler: (void (^) (NSString * eventName, id data)) onEvent;
 
-+ (void)setup:(NSDictionary *)options;
-
 @end
